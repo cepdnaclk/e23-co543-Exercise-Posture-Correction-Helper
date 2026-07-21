@@ -28,13 +28,12 @@ The script:
 - Trains the exercise classification model using **PyTorch**.
 - Saves the trained model and preprocessing objects.
 
-Running `Train.py` generated the following files:
+Running `train.py` generated the following files:
 
 ```
 best_pose_model.pth
 label_encoder.pkl
 pose_scaler.pkl
-live_pose_app.py
 ```
 
 ---
@@ -149,7 +148,7 @@ Future work includes:
 
 ```
 .
-├── Train.py
+├── train.py
 ├── live_pose_app.py
 ├── best_pose_model.pth
 ├── pose_scaler.pkl
